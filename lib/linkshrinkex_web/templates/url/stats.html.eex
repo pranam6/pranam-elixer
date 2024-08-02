@@ -1,0 +1,5 @@
+<h2>URL Statistics</h2>
+<p>Short URL: <%= Routes.url_path(@conn, :show, @url.short_url) %></p>
+<p>Long URL: <%= @url.long_url %></p>
+<p>Visits: <%= @url.visits %></p>
+<p>Last Accessed: <%= @url.updated_at %></p>
